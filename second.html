@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All about Butterflies</title>
+        <style>
+            body {
+                font-family: Georgia, serif;
+                background: linear-gradient(to bottom, #22c1c3, #fdbb2d);
+                line-height: 1.5;
+                color: white;
+            }
+            header, footer {
+                color: white;
+                font-family: Georgia, serif;
+                font-size: x-large;
+                padding: 10px 20px;
+                text-align: center;
+            }
+            main{
+                padding:0 50px;
+            }
+            section{
+                margin-bottom: 30px;
+            }
+            h4 {
+                margin-bottom: 1px;
+            }
+            video{
+                display: block;
+                margin: 0 auto;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            form label{
+                margin: 5px 0;
+            }
+            form input, form textarea {
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            form button {
+                padding: 10px;
+                background-color: #28a745;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            form button:hover {
+                background-color: #1f7c33;
+            }
+
+        </style>
+    </head>
+    <body>
+       <header>
+            <h1 >All About Butterflies</h1>
+       </header>
+       <main>
+            <section id="section1">
+                <h2>Introduction</h2>
+                <p>Butterflies are beautiful,flying insects with large, scale wings. Like all inscets, they have six jointed legs, 3 body parts, a pair of antennae, compound eyes, and an exoskeleton. The three body parts are the head, thorax (the chest), and abdomen (the tail end).</p>
+            </section>
+
+            <section id="section2">
+                <h2>Species</h2>
+                <p>There are about 17,500 species of butterflies in the world. Here are a few notable ones:</p>
+            <article>
+                    <h4>Blue Morpho</h4>
+                    <p>The Blue Morpho butterfly is among the largest in the world, with brilliant blue wings.</p>
+            </article>
+            <article>
+                <h4>Monarch Butterfly</h4>
+                <p>The Monarch butterfly is known for its orange and black wings and long migratory pattern.</p>
+            </article>
+            <article>
+                <h4>Swallowtail Butterfly</h4>
+                <p>Swallowtails are large, colorful butterflies named for the characteristic tail-like extensions of their hindwings.</p>
+            </article>
+            </section>
+
+            <section id="section3">
+                <h2>Lifecycle</h2>
+                <p>Butterflies undergo complete metamorphosis in four stages:</p>
+                <ol>
+                    <li><strong>Egg</strong>: The butterfly starts its life as an egg, which is usually laid on a leaf.</li>
+                    <li><strong>Larva (Caterpillar)</strong>: The egg hatches into a caterpillar, which eats leaves and grows quickly.</li>
+                    <li><strong>Pupa (Chrysalis)</strong>: The caterpillar forms a pupa, also known as a chrysalis, and undergoes transformation.</li>
+                    <li><strong>Adult Butterfly</strong>: The adult butterfly emerges from the pupa and can start the cycle over again.</li>
+                </ol>
+                <video width="640", height="360" controls>
+                    <source src="https://www.youtube.com/watch?v=3kZD6rlSLUw.mpeg-4" type="video/mpeg-4">
+                    Your browser does not support the video tag. 
+                </video>
+            </section>
+
+            <section id="section4">
+                <h2>Gallery</h2>
+                <figure>
+                    <img src="c:\Users\DELL\Downloads\Morpho helenor.jfif" alt="Blue Morpho Butterfly" width="400" height="300">
+                    <figcaption>Blue Morpho Butterfly</figcaption>
+                </figure>
+                <figure>
+                    <img src="c:\Users\DELL\Downloads\Monarch Butterfly.jfif" alt="Monarch Butterfly" width="400" height="300">
+                    <figcaption>Monarch Butterfly</figcaption>
+                </figure>
+                <figure>
+                    <img src="c:\Users\DELL\Downloads\Swallowtail Butterfly.jfif" alt="Swallowtail Butterfly" width="400" height="300">
+                    <figcaption>Swallowtail Butterfly</figcaption>
+                </figure>
+            </section>
+
+            <section id="section5">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                                
+                </form>
+            </section>
+       </main>
+       <footer>
+            <p>&copy; 2024 Butterfly World</p>
+       </footer> 
+    </body>  
+</html>
